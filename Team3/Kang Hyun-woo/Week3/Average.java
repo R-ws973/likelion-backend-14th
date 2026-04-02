@@ -1,4 +1,4 @@
-package HyeonWoo;
+package Week3;
 
 import java.util.Scanner;
 
