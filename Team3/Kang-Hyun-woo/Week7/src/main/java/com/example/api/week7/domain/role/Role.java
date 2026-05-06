@@ -1,6 +1,6 @@
 package com.example.api.week7.domain.role;
 
-import class5.policy.SubmissionPolicy;
+//import class5.policy.SubmissionPolicy;
 
 public abstract class Role {
     private String name;
@@ -31,11 +31,11 @@ public abstract class Role {
         return part;
     }
 
-    public abstract SubmissionPolicy submissionPolicy();
+//    public abstract SubmissionPolicy submissionPolicy();
 
-    public boolean canSubmitAssignment() {
-        return submissionPolicy().canSubmit();
-    }
+//    public boolean canSubmitAssignment() {
+//        return submissionPolicy().canSubmit();
+//    }
 
     public abstract String roleName();
 

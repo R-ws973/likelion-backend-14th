@@ -1,7 +1,7 @@
 package com.example.api.week7.domain.role;
 
-import class5.policy.LionSubmissionPolicy;
-import class5.policy.SubmissionPolicy;
+//import class5.policy.LionSubmissionPolicy;
+//import class5.policy.SubmissionPolicy;
 
 public class Lion extends Role {
     private String studentId;
@@ -15,10 +15,10 @@ public class Lion extends Role {
         return studentId;
     }
 
-    @Override
-    public SubmissionPolicy submissionPolicy() {
-        return new LionSubmissionPolicy();
-    }
+//    @Override
+//    public SubmissionPolicy submissionPolicy() {
+//        return new LionSubmissionPolicy();
+//    }
 
     @Override
     public String roleName() {

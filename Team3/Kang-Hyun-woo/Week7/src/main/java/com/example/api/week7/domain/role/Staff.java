@@ -1,7 +1,7 @@
 package com.example.api.week7.domain.role;
 
-import class5.policy.StaffSubmissionPolicy;
-import class5.policy.SubmissionPolicy;
+//import class5.policy.StaffSubmissionPolicy;
+//import class5.policy.SubmissionPolicy;
 
 public class Staff extends Role {
     private String position;
@@ -14,11 +14,11 @@ public class Staff extends Role {
     public String getPosition() {
         return position;
     }
-
-    @Override
-    public SubmissionPolicy submissionPolicy() {
-        return new StaffSubmissionPolicy();
-    }
+//
+//    @Override
+//    public SubmissionPolicy submissionPolicy() {
+//        return new StaffSubmissionPolicy();
+//    }
 
     @Override
     public String roleName() {
