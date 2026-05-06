@@ -1,11 +1,5 @@
-./build
-
-./build.gradle
-
-./.gradle
-./gradlew
-./gradle
-./gradlew.bat
-./settings.gradle
-
-./src/test
+build/
+.gradle/
+gradle/
+bin/
+out/
