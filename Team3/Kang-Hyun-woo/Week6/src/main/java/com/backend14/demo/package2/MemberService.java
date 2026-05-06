@@ -1,17 +1,27 @@
-package week5.package2;
+package com.backend14.demo.package2;
 
 import java.util.Scanner;
+import org.springframework.stereotype.Service; //import org.springframework.context.annotation.re
+import org.springframework.beans.factory.annotation.Autowired;
 
+
+@Service
 public class MemberService {
 
     private MemberRepository memberRepository;
 
     Scanner input = new Scanner(System.in);
 
-    MemberService (MemberRepository memberRepository) {
+
+    public MemberService (MemberRepository memberRepository) {
+        selectMenu();
         this.memberRepository = memberRepository;
     }
-
+    private void selectMenu() {
+        System.out.println("저장소를 선택하세요");
+        System.out.println("1. MemoryMemberRepository (실제 저장");
+        System.out.println("2. MockMemberRepository (더미 데이터");
+    }
 
 
 
